@@ -1,0 +1,51 @@
+#board{
+   display:grid;
+   grid-template-columns: 100px 100px 100px;
+   grid-template-rows: auto 100px 100px 100px 30px;
+   justify-content: center;
+   visibility:hidden;
+   margin-top: 1.4em;
+}
+.botones{
+   display:grid;
+   grid-template-columns: 150px 150px
+}
+#players{
+   display:none;
+   grid-template-columns: 300px 300px;
+   grid-template-rows: 30px 30px;
+   justify-content: center;
+}
+.naming{
+   display:block;
+   
+}
+.viewport{
+   display:flex;
+   align-content: center;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+#winner{
+   grid-column: 1/ span 3;
+   text-align: center;
+   visibility: hidden;
+   
+   
+}
+.square{
+   
+   background-color:black;
+   color:white;
+   text-align: center;
+   border: solid 1px red;
+   font-size: 80px;
+}
+.taken{
+   color:red;
+}
+body{
+   background-color: red;
+}
